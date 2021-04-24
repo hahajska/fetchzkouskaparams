@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Smith",
+        "address": {
+            "streetAddress": "21 2nd Street",
+            "city": "New York",
+            "state": "NY",
+            "postalCode": 10021
+        },
+        "phoneNumbers": [
+            "212 555-1234",
+            "646 555-4567"
+        ]
+    },
+    {
+        "id": 2,
+        "firstName": "Pepa",
+        "lastName": "Mirk",
+        "address": {
+            "streetAddress": "Lesní 220",
+            "city": "Pragiue York",
+            "state": "NY",
+            "postalCode": 10021
+        },
+        "phoneNumbers": [
+            "212 555-1234",
+            "646 555-4567"
+        ]
+    },     
+    {
+        "id": 3,
+        "firstName": "Alex",
+        "lastName": "Smith",
+        "address": {
+            "streetAddress": "Brno 220",
+            "city": "Black York",
+            "state": "NasfafY",
+            "postalCode": 10021
+        },
+        "phoneNumbers": [
+            "212 afaf555-1234",
+            "646 55asfaf5-4567"
+        ]
+    }
+]
