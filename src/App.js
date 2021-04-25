@@ -9,10 +9,10 @@ import {
   useParams,
 } from "react-router-dom";
 
-import Support from "./Support";
-import Info from "./Info";
+import Form from "./Form";
+import Recipes from "./Recipes";
 import Home from "./Home";
-import Prices from "./Prices";
+import Recipe from "./Recipe";
 
 function App() {
   const [data, setData] = useState([]);
@@ -36,53 +36,25 @@ function App() {
     getData();
   }, []);
   return (
-    /*     <Router>
-      <Switch>
-        <Route path="/:id" component={Funguj} />
-      </Switch>
-      {data &&
-        data.length > 0 &&
-        data.map((item, key) => (
-          <div key={item.id} className="listWrapper">
-            <Link to={`/${item.id}`}>
-              <h1>{item.lastName}</h1>
-              <h2>{item.firstName}</h2>
-              <h5>{item.id}</h5>
-              <p>{item.address.streetAddress}</p>
-            </Link>
-          </div>
-        ))}
-    </Router> */
-    <Router>
-      <div className="navbarWrapper">
-        <li>
-          <Link to="/support">support</Link>
-        </li>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/info">Info</Link>
-        </li>
-        <li>
-          <Link to="/prices">prices</Link>
-        </li>
-      </div>
-      <Switch>
-        <Route path="/prices">
-          <Prices />
-        </Route>
-        <Route path="/info">
-          <Info />
-        </Route>
-        <Route path="/support">
-          <Support />
-        </Route>
-        <Route exact path="/">
-          <Home setData={setData} />
-        </Route>
-      </Switch>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <h1 className="App-title">Recipe Search</h1>
+      </header>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/form">
+            <Form />
+          </Route>
+          <Route path="/recipes">
+            <Recipes />
+          </Route>
+          <Route path="/recipe/:id" component={Recipe} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 

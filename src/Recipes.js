@@ -1,16 +1,4 @@
-import React from "react";
-
-function Home() {
-  return (
-    <div>
-      <h1>hello from home</h1>
-    </div>
-  );
-}
-
-export default Home;
-
-/* import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.scss";
 
 import {
@@ -23,7 +11,7 @@ import {
 
 import List from "./List";
 
-function Home() {
+function Recipes(props) {
   useEffect(() => {
     console.log(data, "<---data");
   });
@@ -52,19 +40,24 @@ function Home() {
     <div>
       {data &&
         data.length > 0 &&
-        data.map((item, id) => (
-          <Link
-            to={{
-              pathname: `/recipe/${item.id}`,
-              state: { recipe: item.id },
-            }}
-          >
-            View Recipe
-          </Link>
+        data.map((item, key) => (
+          <div key={item.id} className="listWrapper">
+            <Link
+              to={{
+                pathname: `/recipe/${item.id}`,
+                state: { recipe: item.lastName },
+              }}
+            >
+              <button>PODIVEJ SE NA INFO</button>
+            </Link>
+
+            <h1>{item.lastName}</h1>
+            <h2>{item.firstName}</h2>
+            <h5>{item.id}</h5>
+            <p>{item.address.streetAddress}</p>
+          </div>
         ))}
     </div>
   );
 }
-
-export default Home;
- */
+export default Recipes;
