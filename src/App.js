@@ -1,18 +1,10 @@
 import "./App.scss";
 import React, { useState, useEffect } from "react";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams,
-} from "react-router-dom";
-
-import Form from "./Form";
-import Recipes from "./Recipes";
-import Home from "./Home";
-import Recipe from "./Recipe";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./components/Home/Home";
+import Recipes from "./components/Recipes/Recipes";
+import Recipe from "./components/Recipe/Recipe";
 
 function App() {
   const [data, setData] = useState([]);
@@ -36,25 +28,23 @@ function App() {
     getData();
   }, []);
   return (
-    <div className="App">
+    <Router>
       <header className="App-header">
         <h1 className="App-title">Recipe Search</h1>
+        <h1>
+          <Link to="/recipes">RECEPTY BRASKO</Link>
+        </h1>
       </header>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/form">
-            <Form />
-          </Route>
-          <Route path="/recipes">
-            <Recipes />
-          </Route>
-          <Route path="/recipe/:id" component={Recipe} />
-        </Switch>
-      </Router>
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/recipes">
+          <Recipes />
+        </Route>
+        <Route path="/recipe/:id" component={Recipe} />
+      </Switch>
+    </Router>
   );
 }
 

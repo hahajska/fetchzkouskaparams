@@ -1,0 +1,17 @@
+.kontejner {
+  background: red;
+  .profile {
+    height: 100vh;
+  }
+  .infoProfile {
+    height: 100vh;
+    padding: 1rem;
+  }
+}
+
+.weekProfit,
+.monthProfit,
+.yearProfit {
+  background: green;
+  height: 25rem;
+}

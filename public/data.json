@@ -1,47 +1,64 @@
 [
     {
         "id": 1,
-        "firstName": "John",
-        "lastName": "Smith",
-        "address": {
-            "streetAddress": "21 2nd Street",
-            "city": "New York",
-            "state": "NY",
-            "postalCode": 10021
-        },
-        "phoneNumbers": [
-            "212 555-1234",
-            "646 555-4567"
-        ]
+        "name": "John Smith",
+        "ziskWeek": "90%",
+        "ziskTotal": "995%"
     },
     {
-        "id": 2213892183,
-        "firstName": "Pepa",
-        "lastName": "Mirk",
-        "address": {
-            "streetAddress": "Lesní 220",
-            "city": "Pragiue York",
-            "state": "NY",
-            "postalCode": 10021
-        },
-        "phoneNumbers": [
-            "212 555-1234",
-            "646 555-4567"
-        ]
+        "id": 2,
+        "name": "Pepa Smith",
+        "ziskWeek": "78%",
+        "ziskTotal": "838%"
     },     
     {
         "id": 3,
-        "firstName": "Alex",
-        "lastName": "Smith",
-        "address": {
-            "streetAddress": "Brno 220",
-            "city": "Black York",
-            "state": "NasfafY",
-            "postalCode": 10021
-        },
-        "phoneNumbers": [
-            "212 afaf555-1234",
-            "646 55asfaf5-4567"
-        ]
+        "name": "Alex Pepa",
+        "ziskWeek": "53%",
+        "ziskTotal": "685%"
+    },     
+    {
+        "id": 4,
+        "name": "Frank Crypto",
+        "ziskWeek": "49%",
+        "ziskTotal": "643%"
+    },     
+    {
+        "id": 5,
+        "name": "Tomas Cardano",
+        "ziskWeek": "45%",
+        "ziskTotal": "508%"
+    },     
+    {
+        "id": 6,
+        "name": "Ivan Black",
+        "ziskWeek": "20%",
+        "ziskTotal": "394%"
+    },     
+    {
+        "id": 7,
+        "name": "Peter Smith",
+        "ziskWeek": "5%",
+        "ziskTotal": "839%"
+    },     
+    {
+        "id": 8,
+        "name": "Philip Bond",
+        "ziskWeek": "10%",
+        "ziskTotal": "109%"
+
+    },     
+    {
+        "id": 9,
+        "name": "Jane Novs",
+        "ziskWeek": "239%",
+        "ziskTotal": "241%"
+    },     
+    {
+        "id": 10,
+        "name": "Dave Merta",
+        "ziskWeek": "90%",
+        "ziskTotal": "134%"
     }
+
 ]
