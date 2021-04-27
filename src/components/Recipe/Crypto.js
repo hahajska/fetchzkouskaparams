@@ -13,13 +13,55 @@ export default function Crypto() {
         <div className="text-center">24H %</div>
         <div className="text-center">7DAYS %</div>
       </div>
-      <div className="cryptoInfo bg-red-100">
+      <div className="cryptoInfo bg-red-100 grid grid-cols-4">
         <div className="text-center">NAME</div>
         <div className="text-center">CURRENT PRICE</div>
         <div className="text-center">24H %</div>
         <div className="text-center">7DAYS %</div>
       </div>
-      <div className="cryptoInfo bg-red-200">
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
+        <div className="text-center">NAME</div>
+        <div className="text-center">CURRENT PRICE</div>
+        <div className="text-center">24H %</div>
+        <div className="text-center">7DAYS %</div>
+      </div>{" "}
+      <div className="cryptoInfo bg-red-200 grid grid-cols-4">
         <div className="text-center">NAME</div>
         <div className="text-center">CURRENT PRICE</div>
         <div className="text-center">24H %</div>
