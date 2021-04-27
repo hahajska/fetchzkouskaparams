@@ -1,17 +1,43 @@
 .kontejner {
-  background: red;
   .profile {
     height: 100vh;
+    background: rgb(230, 230, 230);
   }
   .infoProfile {
     height: 100vh;
     padding: 1rem;
+    background: rgb(236, 236, 236);
   }
 }
 
 .weekProfit,
 .monthProfit,
 .yearProfit {
-  background: green;
+  background: rgb(223, 223, 223);
   height: 25rem;
+  position: relative;
+  .profitProcentaBig {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    z-index: 1;
+    color: rgb(194, 194, 194);
+  }
+  .profitProcentaSmall {
+    z-index: 5;
+    color: rgb(42, 42, 42);
+    position: relative;
+    font-size: 3rem;
+  }
+  h1 {
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.cryptoInfo {
+  margin: 1rem;
 }

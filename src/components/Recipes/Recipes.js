@@ -44,10 +44,10 @@ function Recipes(props) {
               <h2>{item.name}</h2>
             </div>
             <div className="text-center text-green-600">
-              <h5>{item.ziskWeek}</h5>
+              <h5>{item.ziskWeek}%</h5>
             </div>
             <div className="text-left text-green-600">
-              <p>{item.ziskTotal}</p>
+              <p>{item.ziskMonth}%</p>
             </div>
             <div className="text-left ">
               <Link
@@ -56,6 +56,8 @@ function Recipes(props) {
                   state: {
                     name: item.name,
                     ziskWeek: item.ziskWeek,
+                    ziskMonth: item.ziskMonth,
+                    ziskYear: item.ziskYear,
                     //...data,
                   },
                 }}

@@ -2,63 +2,83 @@
     {
         "id": 1,
         "name": "John Smith",
-        "ziskWeek": "90%",
-        "ziskTotal": "995%"
+        "ziskWeek": "90",
+        "ziskMonth": "995",
+        "ziskYear": "495"
     },
     {
         "id": 2,
         "name": "Pepa Smith",
-        "ziskWeek": "78%",
-        "ziskTotal": "838%"
+        "ziskWeek": "78",
+        "ziskMonth": "838",
+        "ziskYear": "495"
+
     },     
     {
         "id": 3,
         "name": "Alex Pepa",
-        "ziskWeek": "53%",
-        "ziskTotal": "685%"
+        "ziskWeek": "53",
+        "ziskMonth": "685",
+        "ziskYear": "495"
+
     },     
     {
         "id": 4,
         "name": "Frank Crypto",
-        "ziskWeek": "49%",
-        "ziskTotal": "643%"
+        "ziskWeek": "49",
+        "ziskMonth": "643",
+        "ziskYear": "495"
+
     },     
     {
         "id": 5,
         "name": "Tomas Cardano",
-        "ziskWeek": "45%",
-        "ziskTotal": "508%"
+        "ziskWeek": "45",
+        "ziskMonth": "508",
+        "ziskYear": "495"
+
     },     
     {
         "id": 6,
         "name": "Ivan Black",
-        "ziskWeek": "20%",
-        "ziskTotal": "394%"
+        "ziskWeek": "20",
+        "ziskMonth": "394",
+        "ziskYear": "495"
+
     },     
     {
         "id": 7,
         "name": "Peter Smith",
-        "ziskWeek": "5%",
-        "ziskTotal": "839%"
+        "ziskWeek": "5",
+        "ziskMonth": "839",
+        "ziskYear": "495"
+
     },     
     {
         "id": 8,
         "name": "Philip Bond",
-        "ziskWeek": "10%",
-        "ziskTotal": "109%"
+        "ziskWeek": "10",
+        "ziskMonth": "109",       
+         "ziskYear": "495"
+
+
 
     },     
     {
         "id": 9,
         "name": "Jane Novs",
-        "ziskWeek": "239%",
-        "ziskTotal": "241%"
+        "ziskWeek": "239",
+        "ziskMonth": "241",
+        "ziskYear": "495"
+
     },     
     {
         "id": 10,
         "name": "Dave Merta",
-        "ziskWeek": "90%",
-        "ziskTotal": "134%"
+        "ziskWeek": "90",
+        "ziskMonth": "134",
+        "ziskYear": "495"
+
     }
 
 ]
